@@ -1,6 +1,6 @@
 # MisTex
-MisTex is a LaTex renderer for mistune, allowing for the creation of
-LaTex documents from Markdown files.
+MisTex is a LaTeX renderer for mistune, allowing for the creation of
+LaTeX documents from Markdown files.
 
 ## Usage
 ~~~python
