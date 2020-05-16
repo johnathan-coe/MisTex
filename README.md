@@ -5,7 +5,7 @@ LaTeX documents from Markdown files.
 ## Usage
 ~~~python
 import mistune
-from Renderer import Renderer
+from MisTex.Renderer import Renderer
 
 markdown = mistune.create_markdown(renderer=Renderer())
 markdown("**Bold Text**")
