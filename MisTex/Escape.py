@@ -9,7 +9,7 @@ PATTERN = re.compile(
 # define how to parse matc
 def parse(md_block, match, state):
     # Extract content from match
-    text = m.group(1)
+    text = match.group(1)
     # Tell mistune this is raw text and doesn't need
     # to be processed further.
     return {'type': 'escape', 'raw': text}
